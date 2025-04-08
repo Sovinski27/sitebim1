@@ -1,0 +1,266 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento Esportivo 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <h1 class="logo">Copa Ceifa Universitária</h1>
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#inscricao">Inscrição</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header> 
+
+    <div class="destaque-evento">
+        <h1 class="headline">Prepare-se para o maior clássico interatléticas de Curitiba!</h1>
+      </div>
+      
+    
+    <div id="contador" class="countdown" style="text-align: center;">
+        <h2>Início do evento em:</h2>
+        <div class="digits">
+          <span id="dias">00</span>d :
+          <span id="horas">00</span>h :
+          <span id="minutos">00</span>m :
+          <span id="segundos">00</span>s
+        </div>
+      </div>
+
+    <section id="sobre">
+      <h3>Sobre o Evento</h3>
+      <p>
+        O Interatléticas Curitiba 2025 é muito mais que uma competição: é o momento em que a rivalidade saudável, o espírito esportivo e a vibração universitária se encontram em um único lugar!
+      </p>
+      <p>
+        Com modalidades que vão do futebol ao vôlei, reunindo as principais atléticas da cidade, este evento promete agitar o cenário esportivo com disputas eletrizantes, torcida fervorosa e muita integração entre os estudantes.
+      </p>
+      <p>
+        Prepare-se para viver uma experiência única, onde cada ponto é comemorado, cada torcida ecoa alto e cada equipe mostra o seu melhor. Venha fazer parte do maior clássico interatléticas de Curitiba!
+    </section>
+
+    <section id="programacao">
+        <div class="container" style="text-align: center;"></div>
+      <h2>Programação</h2>
+      <ul>
+        <li>08h - Abertura</li>
+        <li>09h - Semi 1</li>
+        <li>10h - Semi 2</li>
+        <li>11h - Final</li>
+        <li>12h - Encerramento e premiações</li>
+      </ul>
+    </section>
+
+    <section id="programacao">
+        <div class="container">
+          <h2>Programação</h2>
+          <ul class="timeline">
+            <li>
+              <span class="time">08:00</span>
+              <div class="event">
+                <h3>Abertura Oficial</h3>
+                <p>Boas-vindas e apresentação das equipes.</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">20/04</span>
+              <div class="event">
+                <h3>Futebol de Campo - Masculino</h3>
+                <p>Equipe A x Equipe B</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">20/04</span>
+              <div class="event">
+                <h3>Futebol de Campo - Feminino</h3>
+                <p>Equipe C x Equipe D</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">26/04</span>
+              <div class="event">
+                <h3>Vôlei - Masculino</h3>
+                <p>Equipe E x Equipe F</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">26/04</span>
+              <div class="event">
+                <h3>Vôlei - Feminino</h3>
+                <p>Equipe G x Equipe H</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">27/04</span>
+              <div class="event">
+                <h3>Futsal - Masculino</h3>
+                <p>Equipe I x Equipe J</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">26/04</span>
+              <div class="event">
+                <h3>Futsal - Feminino</h3>
+                <p>Equipe K x Equipe L</p>
+              </div>
+            </li>
+            <li>
+              <span class="time">27/04</span>
+              <div class="event">
+                <h3>Encerramento e Premiação</h3>
+                <p>Discurso final e entrega de medalhas.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>      
+      
+
+      <section id="depoimentos">
+        <div class="container">
+          <h2>Depoimentos</h2>
+          <div class="carousel">
+            <div class="testimonial active">
+              <p>“O evento vai pegar fogo!!!!!”</p>
+              <span>- Ana Paula</span>
+            </div>
+            <div class="testimonial">
+              <p>“Maior clássico da UC.”</p>
+              <span>- Lucas Oliveira</span>
+            </div>
+            <div class="testimonial">
+              <p>“Vamos de terrorCeifa!”</p>
+              <span>- Mariana Costa</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="torcedores" style="background: #000000; padding: 2rem 1rem; text-align: center;">
+        <div class="container">
+          <h2 style="text-align:center; color: #ff0000; font-size: 2rem;">Espaço do Torcedor</h2>
+          <p style="text-align:center; max-width: 800px; margin: 1rem auto; font-size: 1.1rem;">Este é o cantinho especial para você que está torcendo, vibrando e fazendo parte da festa! Compartilhe sua torcida, mande mensagens para os atletas ou participe de enquetes divertidas.</p>
+          <form style="max-width: 600px; margin: 2rem auto; display: flex; flex-direction: column; gap: 1rem;" onsubmit="abrirModalConfirmacao(event)">
+            <input type="text" placeholder="Seu nome" required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;">
+            <textarea placeholder="Deixe sua mensagem para os atletas!" rows="4" required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;"></textarea>
+            <button type="submit" style="padding: 1rem; background-color: #ff0000; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Enviar Mensagem</button>
+          </form>
+        </div>
+      </section>
+      
+      <div id="modal-confirmacao" style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;">
+        <div style="background: rgb(0, 0, 0); padding: 2rem; border-radius: 10px; text-align: center; max-width: 400px;">
+          <h3 style="color: #ff0000; margin-bottom: 1rem;">Mensagem enviada!</h3>
+          <p>Obrigado por compartilhar sua torcida. Sua mensagem foi recebida com sucesso.</p>
+          <button onclick="fecharModalConfirmacao()" style="margin-top: 1rem; padding: 0.8rem 1.5rem; background-color: #ff0000; color: white; border: none; border-radius: 8px; cursor: pointer;">Fechar</button>
+        </div>
+      </div>
+
+      <section id="Inscrição">
+        <div class="container">
+          <h1>INSCREVA-SE</h1>
+          <ul class="container">
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="email">Número da matrícula:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="modalidade">Equipe:</label>
+        <select id="modalidade" name="modalidade" required>
+          <option value="futsal">Selecione:</option>
+          <option value="corrida">Castores</option>
+          <option value="basquete">Matilha</option>
+          <option value="basquete">Chefões</option>
+          <option value="futsal">Ceifadores</option>
+        </select>
+
+        <label for="modalidade">Modalidade:</label>
+        <select id="modalidade" name="modalidade" required>
+          <option value="futsal">Selecione:</option>
+          <option value="corrida">Corrida</option>
+          <option value="basquete">Basquete</option>
+          <option value="futsal">Futsal</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="informacoes">  
+        <div class="container">
+          <h2>Informações Gerais</h2>
+          <div class="info-grid">
+            <div class="info-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Local" />
+              <h3>Local</h3>
+              <p>Ginásio Central da Unicesumar - Curitiba</p>
+            </div>
+            <div class="info-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="Data e Hora" />
+              <h3>Data</h3>
+              <p>Varia de acordo com a modalidade - a partir das 08h</p>
+            </div>
+            <div class="info-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Checklist" />
+              <h3>O que levar</h3>
+              <p>Documento com foto, carteirinha da atlética e muita energia!</p>
+            </div>
+            <div class="info-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Contato" />
+              <h3>Contato</h3>
+              <p>@interatléticas.curitiba | (41) 99999-0000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="info-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Mapa do Evento" />
+        <h3>Mapa do Evento</h3>
+        <p>Acesse o mapa completo com as áreas de jogos, praça de alimentação e banheiros.</p>
+        <a href="https://www.google.com/maps/place/R.+Itajub%C3%A1,+655+-+Port%C3%A3o,+Curitiba+-+PR,+81070-190/@-25.480923,-49.3004505,18z/data=!3m1!4b1!4m19!1m12!4m11!1m3!2m2!1d-49.2945406!2d-25.4781247!1m6!1m2!1s0x94dce351e0b0e46b:0xabac87dacbdefea4!2sEAD+UniCesumar+-+Curitiba+-+Campus%2FPR,+R.+Itajub%C3%A1,+673+-+Port%C3%A3o,+Curitiba+-+PR,+81070-190!2m2!1d-49.299156!2d-25.4813719!3m5!1s0x94dce342262fa511:0xfae0806502bf65e!8m2!3d-25.480923!4d-49.299163!16s%2Fg%2F11gf9mbdy9?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="display: inline-block; margin-top: 0.5rem; color: #ff0000; font-weight: bold;">Visualizar Mapa</a>
+      </div>
+      
+      
+
+    <div id="modalConfirmacao" class="modal hidden">
+        <div class="modal-content">
+          <p>Inscrição enviada com sucesso!</p>
+          <button id="fecharModal">Fechar</button>
+        </div>
+      </div>
+
+      <div class="botao-flutuante" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑ Topo
+      </div>
+
+    <section id="contato">
+      <h3>Contato</h3>
+      <p>Email: evento@universidade.com</p>
+      <p>Telefone: (41) 99999-9999</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Evento Interatléticas | Desenvolvido por Lucas Sovisnki R.A 24105599-2 </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
